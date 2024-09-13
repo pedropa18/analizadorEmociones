@@ -1,0 +1,109 @@
+/* Reseteo de márgenes y espacios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #A7C7E7;
+    color: #343a40;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Contenedor de la aplicación */
+.app-container {
+    width: 90%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.app-container:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+/* Estilo del encabezado */
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #D9B382;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Área de entrada de texto */
+.input-area {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 2px solid #D9B382;
+    border-radius: 10px;
+    resize: none;
+    min-height: 120px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #e3c39d;
+    outline: none;
+}
+
+/* Estilo del botón */
+button {
+    margin-top: 20px;
+    padding: 15px 35px;
+    background-color: #D9B382;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(217, 179, 130, 0.4);
+}
+
+button:hover {
+    background-color: #c6a675;
+    box-shadow: 0 8px 20px rgba(217, 179, 130, 0.6);
+    transform: translateY(-2px);
+}
+
+/* Sección de resultados */
+#resultSection {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f8f9fa;
+    border: 1px solid #d1d3e2;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Pie de página */
+footer p {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de clasificación emocional impulsado por Hugging Face">
+    <link rel="stylesheet" href="styles.css">
+    <title>Detección de Emociones</title>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Analizador de Emociones</h1>
+        </header>
+        <main>
+            <section class="input-area">
+                <textarea id="inputText" placeholder="Introduce texto para analizar emociones..." rows="5" aria-label="Texto para analizar emociones"></textarea>
+                <button id="analyzeButton" aria-label="Analizar emociones">Analizar</button>
+            </section>
+            <section id="resultSection" class="hidden">
+                <h2>Resultados</h2>
+                <div id="result"></div>
+            </section>
+        </main>
+        <footer>
+            <p>Desarrollado con la API de Hugging Face</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
