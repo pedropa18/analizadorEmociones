@@ -35,12 +35,6 @@ El archivo JavaScript es responsable de la lógica interactiva de la aplicación
 - **Conexión con la API de Hugging Face**: Se hace una solicitud a la API de Hugging Face, enviando el texto ingresado por el usuario y recibiendo como respuesta una clasificación emocional.
 - **Manejo de resultados**: La API devuelve un array de emociones con un nivel de confianza asociado. Estos datos se muestran en la página de manera clara y estructurada.
 
-### 4. **Optimización**
-Durante el desarrollo, se realizaron las siguientes optimizaciones:
-- **Accesibilidad mejorada**: Uso de `aria-label` en los controles de entrada y botón.
-- **Reducción de repeticiones**: En JavaScript, la lógica para mostrar resultados se optimizó utilizando funciones que reducen la manipulación innecesaria del DOM.
-- **Optimización de rendimiento**: Se simplificaron los estilos y se redujo el número de manipulaciones en el DOM para mejorar la eficiencia.
-
 ## 🛠️ Tecnologías Utilizadas
 
 - **HTML5**: Para la estructura del sitio web.
