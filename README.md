@@ -65,4 +65,4 @@ Si prefieres ejecutar el proyecto localmente, sigue estos pasos:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/pedropa18/analizador-emociones.git
+   git clone https://github.com/pedropa18/analizadorEmociones.git
