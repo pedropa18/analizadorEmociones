@@ -24,7 +24,7 @@ El HTML se encarga de la estructura básica de la página. Incluye un área para
 
 ### 2. **Estilos CSS (`styles.css`)**
 Los estilos CSS están diseñados para ofrecer una experiencia visual moderna y atractiva:
-- **Diseño responsivo**: El diseño se adapta bien a pantallas de diferentes tamaños, con un contenedor centralizado que asegura una buena legibilidad tanto en móviles como en computadoras.
+- **Diseño responsive**: El diseño se adapta bien a pantallas de diferentes tamaños, con un contenedor centralizado que asegura una buena legibilidad tanto en móviles como en computadoras.
 - **Interactividad**: Se añadieron transiciones suaves al botón y a la caja de texto para mejorar la experiencia del usuario.
 - **Colores suaves**: El fondo pastel azul y los tonos beige le dan una sensación amigable y profesional a la interfaz.
   
